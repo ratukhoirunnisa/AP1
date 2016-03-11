@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string nama;
+
+	cout << "Masukkan nama anda : ";
+	cin >> nama;
+
+	cout << "Hello ";
+	cout << nama;
+}
