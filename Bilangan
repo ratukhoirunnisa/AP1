@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    int bil1;
+    int bil2;
+    int hasil;
+
+    cout << " Masukkan bilangan 1 : ";
+    cin >> bil1;
+    cout << " Masukkan bilangan 2 : ";
+    cin >> bil2;
+
+    //penambahan
+    hasil = bil1 + bil2;
+    cout << "Hasil penjumlahan : "<< hasil <<endl;
+
+    //pengurangan
+    hasil = bil1 - bil2;
+    cout << "Hasil pengurangan : "<< hasil <<endl;
+
+}
